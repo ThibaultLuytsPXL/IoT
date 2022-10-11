@@ -12,7 +12,7 @@ provider "docker" {
 }
 
 resource "docker_image" "nginx" {
-  name         = "nginx:latest"
+  name         = "thibaultluytspxl/publish-packages/game:sha-5fe99a9"
   keep_locally = false
 }
 
