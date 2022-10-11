@@ -12,7 +12,7 @@ provider "docker" {
 }
 
 resource "docker_image" "nginx" {
-  name         = "thibaultluytspxl/publish-packages/game:sha-5fe99a9"
+  name         = "ghcr.io/thibaultluytspxl/publish-packages/game:sha-c74a317"
   keep_locally = false
 }
 
