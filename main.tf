@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "docker" {
-  host    = "publish-pakages-test/Dockerfile"
+  host    = "npipe:////.//pipe//docker_engine"
 }
 
 resource "docker_image" "nginx" {
